@@ -60,6 +60,7 @@ void oNsort(int arr[], int size)
             }
         }
     }
+    delete[] neg_hash;
 
     // positive number print
     for (int i = 0; i <= max; i++)
@@ -84,6 +85,7 @@ void oNsort(int arr[], int size)
             }
         }
     }
+    delete[] pos_hash;
 }
 int main(int argc, char *argv[])
 {
