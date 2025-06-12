@@ -38,7 +38,7 @@ void oNsort(int arr[], int size)
     // assigning and print
     int j = 0;
     // negative numbers
-    for (int i = 0; i <= 0 - min; i++)
+    for (int i = 0-min; i >= 0; i--)
     {
         int count;
         if (neg_hash[i])
@@ -90,6 +90,6 @@ void oNsort(int arr[], int size)
 int main(int argc, char *argv[])
 {
     // example usage
-    int arr[5] = {7, -2, 0, 7, 9};
+    int arr[5] = {-5, -2, 0, 7, 9};
     oNsort(arr, 5);
 }
